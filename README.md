@@ -1,40 +1,14 @@
 # Comment Toxicity Detection
 
-## Project Overview
-This project detects toxic comments using a Deep Learning model.  
-The model classifies comments into multiple toxicity categories.
+This project detects toxic comments using a deep learning model and provides real-time predictions through a Streamlit web application.
 
 ## Features
-- Detects toxic comments
-- Multi-label classification
-- Streamlit Web App Interface
-- Real-time prediction
+- Multi-label toxicity classification
+- Deep learning model using LSTM
+- Real-time predictions
+- Simple and interactive Streamlit UI
 
-## Technologies Used
-- Python
-- TensorFlow / Keras
-- Streamlit
-- NLP (Natural Language Processing)
-
-## Project Structure
-comment-toxicity-detection/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── saved_models/
-├── notebooks/
-├── src/
-└── data/
-
-## How To Run Project
-1. Install requirements:
-   pip install -r requirements.txt
-
-2. Run Streamlit app:
-   streamlit run app.py
-
-## Model Output Labels
+## Toxicity Categories
 - Toxic
 - Severe Toxic
 - Obscene
@@ -42,5 +16,47 @@ comment-toxicity-detection/
 - Insult
 - Identity Hate
 
+## Technologies Used
+- Python
+- TensorFlow / Keras
+- Pandas, NumPy
+- Streamlit
+- Git & GitHub
+
+## Project Structure
+
+comment-toxicity-detection/
+│
+├── app.py
+├── data/
+│ ├── train.csv
+│ └── test.csv
+├── src/
+│ ├── preprocessing.py
+│ └── model.py
+├── saved_models/
+│ └── toxicity_model.keras
+├── notebooks/
+├── requirements.txt
+└── README.md
+
+
+## How to Run the Project
+
+### Step 1: Install Dependencies
+
+
+### Step 2: Run Streamlit App
+
+### Step 3: Enter a Comment
+Type any comment in the input box to see toxicity predictions.
+
+## Sample Output
+The app displays probability scores for each toxicity category.
+
 ## Author
-Sakthi
+**Sakthi**
+
+## GitHub Repository
+https://github.com/Sakthi-luffy/comment-toxicity-detection
+
