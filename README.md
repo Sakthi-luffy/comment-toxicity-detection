@@ -53,6 +53,7 @@ Type any comment in the input box to see toxicity predictions.
 
 ## Sample Output
 The app displays probability scores for each toxicity category.
+http://localhost:8501/
 
 ## Author
 **Sakthi**
